@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menutask_report"
+        android:icon="@drawable/ic_baseline_info_blue_24"
+        android:orderInCategory="100"
+        android:title="@string/menutask_report_title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menutask_edit"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:orderInCategory="101"
+        android:title="@string/menutask_edit_title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menutask_delete"
+        android:icon="@drawable/ic_baseline_delete_red_24"
+        android:orderInCategory="102"
+        android:title="@string/menutask_delete_title"
+        app:showAsAction="never" />
+
+</menu>
